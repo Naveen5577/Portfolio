@@ -12,11 +12,11 @@ const Footer = () => {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Bolt AI
+                P. Naveen Raja
               </div>
               <p className="text-gray-400 mb-4 leading-relaxed">
-                Expert AI-powered coding assistant specializing in modern web development. 
-                Creating beautiful, functional applications with cutting-edge technology.
+                Software Developer passionate about building efficient solutions 
+                and creating impactful digital experiences with modern technologies.
               </p>
               <div className="flex items-center text-gray-400">
                 <span>Made with</span>
@@ -61,7 +61,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Bolt AI Assistant. Powered by Claude Sonnet 4.
+              © {currentYear} P. Naveen Raja. Powered by Naveen Raja.
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

@@ -25,9 +25,7 @@ const Header = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Bolt AI
-          </div>
+          <div></div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

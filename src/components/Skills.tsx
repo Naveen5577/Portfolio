@@ -17,10 +17,10 @@ const Skills = () => {
       icon: Code2,
       color: 'from-blue-500 to-cyan-500',
       skills: [
-        { name: 'React/Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Tailwind CSS', level: 95 },
-        { name: 'Vue.js', level: 85 }
+        { name: 'React.js', level: 90 },
+        { name: 'JavaScript', level: 95 },
+        { name: 'HTML/CSS', level: 95 },
+        { name: 'Bootstrap', level: 85 }
       ]
     },
     {
@@ -28,32 +28,32 @@ const Skills = () => {
       icon: Database,
       color: 'from-green-500 to-emerald-500',
       skills: [
-        { name: 'Node.js', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 88 },
-        { name: 'MongoDB', level: 80 }
+        { name: 'Node.js', level: 85 },
+        { name: 'Python', level: 90 },
+        { name: 'MySQL', level: 80 },
+        { name: 'Express.js', level: 85 }
       ]
     },
     {
-      category: 'Mobile & Cross-Platform',
+      category: 'Programming Languages',
       icon: Smartphone,
       color: 'from-purple-500 to-pink-500',
       skills: [
-        { name: 'React Native', level: 85 },
-        { name: 'Flutter', level: 75 },
-        { name: 'PWA Development', level: 90 },
-        { name: 'Responsive Design', level: 95 }
+        { name: 'Java', level: 80 },
+        { name: 'C++', level: 75 },
+        { name: 'PHP', level: 70 },
+        { name: 'TypeScript', level: 80 }
       ]
     },
     {
-      category: 'AI & Modern Tech',
+      category: 'Tools & Technologies',
       icon: Cpu,
       color: 'from-orange-500 to-red-500',
       skills: [
-        { name: 'AI Integration', level: 95 },
-        { name: 'API Development', level: 90 },
-        { name: 'Cloud Platforms', level: 85 },
-        { name: 'DevOps', level: 80 }
+        { name: 'Git/GitHub', level: 90 },
+        { name: 'REST APIs', level: 85 },
+        { name: 'MongoDB', level: 80 },
+        { name: 'Firebase', level: 75 }
       ]
     }
   ];
@@ -61,10 +61,10 @@ const Skills = () => {
   const tools = [
     { name: 'VS Code', icon: Code2 },
     { name: 'Git', icon: GitBranch },
-    { name: 'Figma', icon: Palette },
-    { name: 'Docker', icon: Layers },
-    { name: 'AWS', icon: Globe },
-    { name: 'Vercel', icon: Globe }
+    { name: 'Postman', icon: Globe },
+    { name: 'MongoDB', icon: Database },
+    { name: 'Firebase', icon: Globe },
+    { name: 'Netlify', icon: Globe }
   ];
 
   return (

@@ -4,54 +4,54 @@ import { Calendar, MapPin, Award, TrendingUp } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      role: 'Senior AI Development Assistant',
-      company: 'StackBlitz Platform',
-      location: 'Global Remote',
+      role: 'Software Developer',
+      company: 'Tech Solutions Inc.',
+      location: 'India',
       period: '2023 - Present',
-      description: 'Leading AI-powered development assistance across multiple programming languages and frameworks. Specialized in React, TypeScript, and modern web development practices.',
+      description: 'Working on web development projects using modern technologies. Focused on creating efficient and user-friendly applications.',
       achievements: [
-        'Assisted in building 10,000+ web applications',
-        'Maintained 99.9% code quality standards',
-        'Integrated with cutting-edge AI technologies',
-        'Supported developers across 50+ countries'
+        'Developed responsive web applications',
+        'Improved code quality and performance',
+        'Collaborated with cross-functional teams',
+        'Delivered projects on time'
       ],
-      skills: ['React', 'TypeScript', 'Node.js', 'AI Integration', 'Web Development']
+      skills: ['React', 'JavaScript', 'Node.js', 'HTML/CSS', 'Git']
     },
     {
-      role: 'Full-Stack Development Specialist',
-      company: 'Claude AI Platform',
-      location: 'AI-Native Environment',
+      role: 'Junior Developer',
+      company: 'StartUp Solutions',
+      location: 'India',
       period: '2022 - 2023',
-      description: 'Developed expertise in modern full-stack development patterns, focusing on user experience and performance optimization.',
+      description: 'Started career in software development, learning modern web technologies and contributing to various projects.',
       achievements: [
-        'Mastered 15+ programming languages',
-        'Optimized development workflows by 60%',
-        'Implemented advanced UI/UX patterns',
-        'Built scalable application architectures'
+        'Built first web application',
+        'Learned multiple programming languages',
+        'Contributed to team projects',
+        'Gained experience in agile development'
       ],
-      skills: ['Python', 'JavaScript', 'SQL', 'REST APIs', 'Database Design']
+      skills: ['Python', 'JavaScript', 'MySQL', 'REST APIs', 'Problem Solving']
     },
     {
-      role: 'Frontend Development Expert',
-      company: 'Modern Web Ecosystem',
-      location: 'Cross-Platform',
-      period: '2021 - 2022',
-      description: 'Specialized in creating responsive, accessible, and performant user interfaces using the latest frontend technologies.',
+      role: 'Computer Science Student',
+      company: 'University',
+      location: 'India',
+      period: '2020 - 2022',
+      description: 'Studied computer science fundamentals and gained hands-on experience through academic projects and internships.',
       achievements: [
-        'Achieved 98% accessibility compliance',
-        'Reduced page load times by 40%',
-        'Created reusable component libraries',
-        'Implemented modern design systems'
+        'Completed degree with good grades',
+        'Built several academic projects',
+        'Participated in coding competitions',
+        'Developed strong programming foundation'
       ],
-      skills: ['React', 'Vue.js', 'CSS3', 'Responsive Design', 'Accessibility']
+      skills: ['Java', 'C++', 'Data Structures', 'Algorithms', 'Database Management']
     }
   ];
 
   const certifications = [
-    { name: 'Advanced AI Integration', issuer: 'Claude Systems', year: '2024' },
-    { name: 'Modern Web Development', issuer: 'Tech Excellence', year: '2023' },
-    { name: 'Full-Stack Architecture', issuer: 'Development Institute', year: '2023' },
-    { name: 'User Experience Design', issuer: 'UX Academy', year: '2022' }
+    { name: 'JavaScript Certification', issuer: 'FreeCodeCamp', year: '2023' },
+    { name: 'React Development', issuer: 'Coursera', year: '2023' },
+    { name: 'Python Programming', issuer: 'Udemy', year: '2022' },
+    { name: 'Web Development', issuer: 'Online Academy', year: '2022' }
   ];
 
   return (
@@ -63,8 +63,8 @@ const Experience = () => {
               Experience & Achievements
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A journey of continuous learning and innovation in AI-powered development 
-              and modern web technologies.
+              My journey in software development, from learning fundamentals 
+              to building real-world applications.
             </p>
           </div>
 

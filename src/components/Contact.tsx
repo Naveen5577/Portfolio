@@ -28,34 +28,33 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'contact@bolt.ai',
-      link: 'mailto:contact@bolt.ai'
+      value: 'pnaveenraja1@gmail.com',
+      link: 'mailto:pnaveenraja1@gmail.com'
     },
     {
       icon: Phone,
-      title: 'Available',
-      value: '24/7 Global Support',
+      title: 'Phone',
+      value: '+91 9392006506',
       link: '#'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'Global Remote',
+      value: 'India',
       link: '#'
     },
     {
       icon: Globe,
-      title: 'Website',
-      value: 'bolt.stackblitz.com',
-      link: 'https://bolt.stackblitz.com'
+      title: 'Portfolio',
+      value: 'naveenraja.dev',
+      link: '#'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-900' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-600' },
-    { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-blue-400' },
-    { icon: Mail, href: 'mailto:contact@bolt.ai', label: 'Email', color: 'hover:text-red-500' }
+    { icon: Github, href: 'https://github.com/Naveen5577', label: 'GitHub', color: 'hover:text-gray-900' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/pogula-naveen-raja-7427a8300', label: 'LinkedIn', color: 'hover:text-blue-600' },
+    { icon: Mail, href: 'mailto:pnaveenraja1@gmail.com', label: 'Email', color: 'hover:text-red-500' }
   ];
 
   return (
@@ -64,11 +63,11 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800">
-              Let's Work Together
+              Get In Touch
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to bring your ideas to life? Let's discuss your project and create 
-              something amazing together.
+              I'm always interested in new opportunities and collaborations. 
+              Feel free to reach out if you'd like to work together.
             </p>
           </div>
 
@@ -201,12 +200,12 @@ const Contact = () => {
               <div className="mt-12 p-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl text-white">
                 <h4 className="text-xl font-bold mb-2">Ready to Start?</h4>
                 <p className="mb-4 opacity-90">
-                  Let's transform your ideas into reality with cutting-edge technology and exceptional design.
+                  Let's discuss your project and explore how we can work together.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm">Free Consultation</span>
-                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm">24/7 Support</span>
-                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm">Global Delivery</span>
+                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm">Quick Response</span>
+                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm">Professional</span>
+                  <span className="px-3 py-1 bg-white/20 rounded-full text-sm">Reliable</span>
                 </div>
               </div>
             </div>

@@ -4,35 +4,35 @@ import { ExternalLink, Github, Star, Users, Clock } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, shopping cart, and payment processing.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      stats: { stars: 245, users: '1.2k', timeline: '3 months' },
+      title: 'Personal Portfolio Website',
+      description: 'A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.',
+      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
+      technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+      stats: { stars: 15, users: '50', timeline: '1 month' },
       links: { github: '#', demo: '#' }
     },
     {
-      title: 'AI Task Management',
-      description: 'Intelligent task management application with AI-powered prioritization, natural language processing, and smart scheduling capabilities.',
+      title: 'Todo Application',
+      description: 'A simple yet functional todo application with CRUD operations and local storage functionality.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Next.js', 'TypeScript', 'OpenAI API', 'Supabase', 'Framer Motion'],
-      stats: { stars: 189, users: '850', timeline: '2 months' },
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Local Storage'],
+      stats: { stars: 8, users: '25', timeline: '2 weeks' },
       links: { github: '#', demo: '#' }
     },
     {
-      title: 'Real-time Analytics Dashboard',
-      description: 'Comprehensive analytics dashboard with real-time data visualization, interactive charts, and customizable reports for business intelligence.',
+      title: 'Weather App',
+      description: 'A weather application that fetches real-time weather data using API integration.',
       image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Vue.js', 'D3.js', 'Python', 'FastAPI', 'WebSocket'],
-      stats: { stars: 156, users: '650', timeline: '4 months' },
+      technologies: ['JavaScript', 'API', 'CSS', 'HTML'],
+      stats: { stars: 12, users: '30', timeline: '1 week' },
       links: { github: '#', demo: '#' }
     },
     {
-      title: 'Social Media Mobile App',
-      description: 'Cross-platform mobile application for social networking with real-time messaging, media sharing, and user engagement features.',
+      title: 'Calculator App',
+      description: 'A functional calculator application with basic arithmetic operations and responsive design.',
       image: 'https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React Native', 'Firebase', 'Redux', 'Socket.io', 'Node.js'],
-      stats: { stars: 203, users: '2.1k', timeline: '5 months' },
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Responsive Design'],
+      stats: { stars: 5, users: '15', timeline: '3 days' },
       links: { github: '#', demo: '#' }
     }
   ];

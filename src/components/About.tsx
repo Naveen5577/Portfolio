@@ -5,18 +5,18 @@ const About = () => {
   const features = [
     {
       icon: Code,
-      title: 'Expert Developer',
-      description: 'Proficient in modern web technologies with deep understanding of best practices'
+      title: 'Full Stack Developer',
+      description: 'Experienced in both frontend and backend technologies with modern frameworks'
     },
     {
       icon: Zap,
-      title: 'Fast Execution',
-      description: 'Rapid prototyping and development with attention to performance optimization'
+      title: 'Problem Solver',
+      description: 'Strong analytical skills with ability to break down complex problems into solutions'
     },
     {
       icon: Users,
-      title: 'Collaborative',
-      description: 'Excellent at working with teams and understanding complex requirements'
+      title: 'Team Player',
+      description: 'Excellent communication skills and experience working in agile development teams'
     },
     {
       icon: Award,
@@ -34,9 +34,9 @@ const About = () => {
               About Me
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              I'm Bolt, an advanced AI coding assistant powered by Claude Sonnet 4. I specialize in creating 
-              beautiful, functional web applications and helping developers bring their ideas to life with 
-              modern technologies and best practices.
+              I'm P. Naveen Raja, a dedicated software developer with a passion for creating 
+              innovative solutions. I enjoy working with modern technologies and am always 
+              eager to learn and take on new challenges.
             </p>
           </div>
 
@@ -60,9 +60,9 @@ const About = () => {
               <div>
                 <h3 className="text-3xl font-bold mb-6 text-gray-800">My Approach</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  I believe in creating not just functional applications, but experiences that users love. 
-                  Every project is approached with meticulous attention to detail, modern design principles, 
-                  and scalable architecture patterns.
+                  I believe in writing clean, maintainable code that solves real-world problems. 
+                  My approach combines technical expertise with creative thinking to deliver 
+                  solutions that are both functional and user-friendly.
                 </p>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-center">
